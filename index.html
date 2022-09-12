@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <script src='voice.js'></script>
     <script src="script.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="/images/robot.png"/>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png"/>
     <title>Joke Teller</title>
 </head>
 <body>
-    <button id="button">Tell me a joke</button>
-    <div id="speech">
-        Hello
-    </div>
+   <div class="container">
+        <button id="button">Tell me a joke</button>
+        <audio id="audio" controls hidden></audio>
+        <div id="speech" class="speech-bubble">
+            Hello
+        </div>
+   </div>
 </body>
 </html>
